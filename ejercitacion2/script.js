@@ -34,7 +34,7 @@ function validacion(){
 }
 
 function partidas(){
-    while(confirm()){
+    while(puntajeComputadora<3 || puntajeUsuario<3){
         jugada()
         validacion();
     }

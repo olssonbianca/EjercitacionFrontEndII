@@ -21,20 +21,30 @@ footer {
 main {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .card{
     border: 1px solid #3f3f3f;
     width: 400px;
-    height: 300px;
+    padding: 1%;
+    height: auto;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 1%;
+    
 }
 
 .img-responsive {
-    width: 90%;
+    width: 85%;
+    border-radius: 30px;
     margin: 0 auto;
+}
+.title{
+    padding:1%;
+    color: black;
+    font-weight: 700;
 }
